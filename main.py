@@ -955,8 +955,6 @@ def get_rarity_name_t(rarity: str, lang: str) -> str:
     if translated == key:
         return rarity.capitalize()
     return translated
-
-
 BOT_TOKEN = os.getenv("BOT_TOKEN", "8292483950:AAEpeXQm6EYmVc9pP29W9Q1NJgFS2YZDmNk")
 CHANNEL_ID = "@Zendeks_rblx"
 ADMIN_IDS = [6668784806, 8972052372]
